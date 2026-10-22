@@ -1,83 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="980" viewBox="0 0 1920 980">
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="900" viewBox="0 0 1920 900">
   <defs>
-    <radialGradient id="core" cx="50%" cy="45%" r="60%">
-      <stop offset="0%" stop-color="#222222">
-        <animate attributeName="stop-color" values="#151515;#2a2a2a;#151515" dur="5s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#000000"/>
-    </radialGradient>
-
-    <linearGradient id="slash" gradientUnits="userSpaceOnUse" x1="0" y1="980" x2="280" y2="0">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="48%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
-      <stop offset="52%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-900,-900;2200,2200;-900,-900" dur="3.4s" repeatCount="indefinite"/>
-    </linearGradient>
-
-    <linearGradient id="chrome" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0">
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="520" y2="0">
       <stop offset="0%" stop-color="#050505"/>
-      <stop offset="35%" stop-color="#3a3a3a"/>
-      <stop offset="47%" stop-color="#ffffff"/>
-      <stop offset="53%" stop-color="#ffffff"/>
-      <stop offset="65%" stop-color="#3a3a3a"/>
+      <stop offset="30%" stop-color="#3a3a3a"/>
+      <stop offset="48%" stop-color="#ffffff"/>
+      <stop offset="52%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#3a3a3a"/>
       <stop offset="100%" stop-color="#050505"/>
-      <animate attributeName="x1" values="-700;1920" dur="2.6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="-100;2520" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="-520;1920" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2440" dur="3.4s" repeatCount="indefinite"/>
     </linearGradient>
-
-    <linearGradient id="chrome2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="700" y2="0">
+    <linearGradient id="shine2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0">
       <stop offset="0%" stop-color="#000000"/>
-      <stop offset="40%" stop-color="#888888"/>
+      <stop offset="35%" stop-color="#6a6a6a"/>
       <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="60%" stop-color="#888888"/>
+      <stop offset="65%" stop-color="#6a6a6a"/>
       <stop offset="100%" stop-color="#000000"/>
-      <animate attributeName="x1" values="1920;-800" dur="3.1s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="2620;-100" dur="3.1s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="1920;-600" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="2520;0" dur="4.2s" repeatCount="indefinite"/>
     </linearGradient>
-
-    <filter id="bloom">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <rect width="1920" height="980" fill="#000000"/>
-  <rect width="1920" height="980" fill="url(#core)"/>
+  <rect width="1920" height="900" fill="#000000"/>
 
-  <g fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.18">
-    <circle cx="960" cy="430" r="90">
-      <animate attributeName="r" values="60;220;60" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.35;0;0.35" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="960" cy="430" r="140">
-      <animate attributeName="r" values="100;320;100" dur="4s" begin="0.7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.28;0;0.28" dur="4s" begin="0.7s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="960" cy="430" r="200">
-      <animate attributeName="r" values="150;420;150" dur="4s" begin="1.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.2;0;0.2" dur="4s" begin="1.4s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+  <text x="960" y="400" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="72" letter-spacing="3" fill="url(#shine)">made with &lt;3 for our player</text>
+  <text x="960" y="520" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="64" letter-spacing="2" fill="url(#shine2)">&amp; Trust us with your game.</text>
 
-  <rect width="1920" height="980" fill="url(#slash)"/>
-
-  <text x="960" y="400" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="78" letter-spacing="3.5" fill="url(#chrome)" filter="url(#bloom)">
-    <animate attributeName="opacity" values="0.85;1;0.85" dur="2.2s" repeatCount="indefinite"/>
-    made with &lt;3 for our player
-  </text>
-  <text x="960" y="520" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="68" letter-spacing="2.2" fill="url(#chrome2)" filter="url(#bloom)">
-    <animate attributeName="opacity" values="1;0.8;1" dur="2.2s" begin="0.4s" repeatCount="indefinite"/>
-    &amp; Trust us with your game.
-  </text>
-
-  <text x="960" y="700" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" letter-spacing="16" fill="#ffffff">
-    <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.5s" repeatCount="indefinite"/>
-    HZBTEAM
-  </text>
+  <text x="960" y="680" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" letter-spacing="14" fill="#4a4a4a">HZBTEAM</text>
 </svg>
