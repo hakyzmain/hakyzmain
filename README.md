@@ -5,7 +5,7 @@
 <br/>
 
 <img src="https://img.shields.io/badge/github-hakyzmain-111111?style=for-the-badge&labelColor=000000&color=1a1a1a" alt="github"/>
-<img src="https://img.shields.io/badge/сайт-hazban.ru-111111?style=for-the-badge&labelColor=000000&color=1a1a1a" alt="web"/>
+<img src="https://img.shields.io/badge/сайт-hzbteam.ru-111111?style=for-the-badge&labelColor=000000&color=1a1a1a" alt="web"/>
 <img src="https://img.shields.io/badge/discord-hex.hakyz-111111?style=for-the-badge&labelColor=000000&color=1a1a1a" alt="discord"/>
 
 <br/><br/>
@@ -107,7 +107,7 @@
 
 <br/>
 
-<a href="https://hazban.ru">hazban.ru</a>
+<a href="https://hzbteam.ru">hzbteam.ru</a>
 &nbsp;·&nbsp;
 <a href="https://github.com/hakyzmain">github.com/hakyzmain</a>
 
