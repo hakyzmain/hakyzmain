@@ -1,43 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#000000"/>
-      <stop offset="50%" stop-color="#0b0b0b"/>
-      <stop offset="100%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <linearGradient id="fadeR" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="wave" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="400" y2="0">
-      <stop offset="0%" stop-color="#101010"/>
-      <stop offset="25%" stop-color="#6a6a6a"/>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="480" y2="0">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="22%" stop-color="#2b2b2b"/>
       <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="75%" stop-color="#6a6a6a"/>
-      <stop offset="100%" stop-color="#101010"/>
-      <animate attributeName="x1" dur="4s" repeatCount="indefinite" values="-400;1200"/>
-      <animate attributeName="x2" dur="4s" repeatCount="indefinite" values="0;1600"/>
+      <stop offset="78%" stop-color="#2b2b2b"/>
+      <stop offset="100%" stop-color="#000000"/>
+      <animate attributeName="x1" values="-480;1200" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1680" dur="3.8s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="wave2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="500" y2="0">
-      <stop offset="0%" stop-color="#0a0a0a"/>
-      <stop offset="45%" stop-color="#cfcfcf"/>
-      <stop offset="55%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#0a0a0a"/>
-      <animate attributeName="x1" dur="5.5s" repeatCount="indefinite" values="1200;-500"/>
-      <animate attributeName="x2" dur="5.5s" repeatCount="indefinite" values="1700;0"/>
+    <linearGradient id="shine2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="560" y2="0">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="40%" stop-color="#a8a8a8"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#a8a8a8"/>
+      <stop offset="100%" stop-color="#000000"/>
+      <animate attributeName="x1" values="1200;-560" dur="4.8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1760;0" dur="4.8s" repeatCount="indefinite"/>
     </linearGradient>
-    <filter id="soft" x="-20%" y="-40%" width="140%" height="180%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="0.4"/>
-    </filter>
   </defs>
 
-  <rect width="1200" height="220" fill="url(#bg)"/>
-  <rect x="60" y="1" width="1080" height="1" fill="url(#edge)"/>
-  <rect x="60" y="218" width="1080" height="1" fill="url(#edge)"/>
+  <rect width="1200" height="520" fill="#000000"/>
 
-  <text x="600" y="88" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="3.5" fill="url(#wave)" filter="url(#soft)">made with &lt;3 for our player</text>
-  <text x="600" y="148" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" letter-spacing="2.5" fill="url(#wave2)">&amp; Trust us with your game.</text>
+  <g transform="translate(250,95)">
+    <g fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="70" cy="70" rx="48" ry="42"/>
+      <path d="M28 58 C8 48 -2 28 12 14 c8-8 22-6 32 4"/>
+      <path d="M112 58 C132 48 142 28 128 14 c-8-8 -22-6 -32 4"/>
+      <path d="M70 112 V210"/>
+      <path d="M70 210 H108 V188"/>
+      <path d="M70 158 H95"/>
+    </g>
+    <path fill="#ff2d55" d="M70 78 c-3-10 -14-14 -21-7 -6 6 -5 15 3 21 l18 16 18-16 c8-6 9-15 3-21 -7-7 -18-3 -21 7z"/>
 
-  <text x="600" y="190" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" letter-spacing="6" fill="#3d3d3d">HZBTEAM</text>
+    <g transform="translate(160,48)">
+      <text x="0" y="52" font-family="Arial Black, Segoe UI, Helvetica, Arial, sans-serif" font-size="78" font-weight="800" fill="#ffffff">HZBTEAM</text>
+      <g transform="translate(6,86)">
+        <g transform="translate(0,0)" fill="#cfcfcf">
+          <circle cx="10" cy="10" r="9" fill="none" stroke="#cfcfcf" stroke-width="1.7"/>
+          <ellipse cx="10" cy="10" rx="3.2" ry="9" fill="none" stroke="#cfcfcf" stroke-width="1.2"/>
+          <path d="M1 10 H19" stroke="#cfcfcf" stroke-width="1.2"/>
+        </g>
+        <text x="28" y="15" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#cfcfcf">https://hzbteam.ru/</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="180" y="320" width="840" height="1" fill="#1a1a1a"/>
+
+  <text x="600" y="390" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" letter-spacing="1.4" fill="url(#shine)">made with &lt;3 for our player</text>
+  <text x="600" y="440" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" letter-spacing="1.2" fill="url(#shine2)">&amp; Trust us with your game.</text>
+
+  <rect x="0" y="0" width="90" height="520" fill="url(#fadeL)"/>
+  <rect x="1110" y="0" width="90" height="520" fill="url(#fadeR)"/>
 </svg>
