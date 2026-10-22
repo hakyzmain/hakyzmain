@@ -1,27 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
   <defs>
-    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="480" y2="0">
-      <stop offset="0%" stop-color="#000000"/>
-      <stop offset="25%" stop-color="#333333"/>
-      <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="75%" stop-color="#333333"/>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="55%" stop-color="#070707"/>
       <stop offset="100%" stop-color="#000000"/>
-      <animate attributeName="x1" values="-480;1200" dur="3.6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0;1680" dur="3.6s" repeatCount="indefinite"/>
+    </radialGradient>
+    <linearGradient id="beam" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="720">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <animate attributeName="y1" values="-720;720" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="0;1440" dur="5s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="shine2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="560" y2="0">
-      <stop offset="0%" stop-color="#000000"/>
-      <stop offset="40%" stop-color="#b0b0b0"/>
-      <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="60%" stop-color="#b0b0b0"/>
-      <stop offset="100%" stop-color="#000000"/>
-      <animate attributeName="x1" values="1200;-560" dur="4.6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1760;0" dur="4.6s" repeatCount="indefinite"/>
+    <linearGradient id="fill1" gradientUnits="userSpaceOnUse" x1="0" y1="360" x2="1500" y2="360">
+      <stop offset="0%" stop-color="#111111">
+        <animate attributeName="stop-color" values="#111111;#f5f5f5;#111111" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="35%" stop-color="#666666">
+        <animate attributeName="stop-color" values="#666666;#ffffff;#666666" dur="4s" begin="0.35s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#ffffff">
+        <animate attributeName="stop-color" values="#ffffff;#1a1a1a;#ffffff" dur="4s" begin="0.7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="65%" stop-color="#666666">
+        <animate attributeName="stop-color" values="#666666;#ffffff;#666666" dur="4s" begin="1.05s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#111111">
+        <animate attributeName="stop-color" values="#111111;#f5f5f5;#111111" dur="4s" begin="1.4s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
+    <linearGradient id="fill2" gradientUnits="userSpaceOnUse" x1="1500" y1="360" x2="0" y2="360">
+      <stop offset="0%" stop-color="#0a0a0a">
+        <animate attributeName="stop-color" values="#0a0a0a;#ffffff;#0a0a0a" dur="4.8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#ffffff">
+        <animate attributeName="stop-color" values="#ffffff;#202020;#ffffff" dur="4.8s" begin="0.8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0a0a0a">
+        <animate attributeName="stop-color" values="#0a0a0a;#ffffff;#0a0a0a" dur="4.8s" begin="1.6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <rect width="1200" height="280" fill="#000000"/>
-  <rect x="220" y="48" width="760" height="1" fill="#1c1c1c"/>
-  <text x="600" y="130" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="32" letter-spacing="1.5" fill="url(#shine)">made with &lt;3 for our player</text>
-  <text x="600" y="185" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" letter-spacing="1.2" fill="url(#shine2)">&amp; Trust us with your game.</text>
-  <rect x="220" y="230" width="760" height="1" fill="#1c1c1c"/>
+
+  <rect width="1500" height="720" fill="#000000"/>
+  <rect width="1500" height="720" fill="url(#vignette)"/>
+  <rect width="1500" height="720" fill="url(#beam)"/>
+
+  <g opacity="0.12" stroke="#2a2a2a" stroke-width="1">
+    <path d="M0 120H1500M0 240H1500M0 360H1500M0 480H1500M0 600H1500"/>
+    <path d="M250 0V720M500 0V720M750 0V720M1000 0V720M1250 0V720"/>
+  </g>
+
+  <text x="750" y="300" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="54" letter-spacing="2" fill="url(#fill1)" filter="url(#glow)">made with &lt;3 for our player</text>
+  <text x="750" y="390" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="48" letter-spacing="1.5" fill="url(#fill2)" filter="url(#glow)">&amp; Trust us with your game.</text>
+
+  <text x="750" y="500" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" letter-spacing="10" fill="#5a5a5a">
+    <animate attributeName="fill" values="#3a3a3a;#d0d0d0;#3a3a3a" dur="6s" repeatCount="indefinite"/>
+    HZBTEAM
+  </text>
 </svg>

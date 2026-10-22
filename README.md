@@ -102,8 +102,7 @@
 
 <br/>
 
-<a href="https://hzbteam.ru">hzbteam.ru</a>
-&nbsp;·&nbsp;
+<a href="https://hzbteam.ru">hzbteam.ru</a>,
 <a href="https://github.com/hakyzmain">github.com/hakyzmain</a>
 
 <br/><br/>
