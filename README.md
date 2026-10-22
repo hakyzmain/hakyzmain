@@ -10,9 +10,11 @@
 
 <br/><br/>
 
+<br/>
+
 <img src="assets/slogan.svg" alt="made with love" width="100%"/>
 
-<br/>
+<br/><br/>
 
 ---
 
