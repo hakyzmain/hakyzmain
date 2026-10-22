@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/shine.svg" alt="HZBTEAM" width="100%"/>
+<img src="assets/black.svg" alt="HZBTEAM" width="100%"/>
 
 <br/><br/>
 
