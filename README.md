@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.jpg" alt="HZBTEAM" width="100%"/>
-<img src="assets/slogan.svg" alt="made with love" width="100%"/>
+<img src="assets/slogan.svg" alt="HZBTEAM" width="100%"/>
 
 <br/><br/>
 
