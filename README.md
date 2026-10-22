@@ -6,6 +6,7 @@
 
 <img src="https://img.shields.io/badge/github-hakyzmain-111111?style=for-the-badge&labelColor=000000&color=1a1a1a" alt="github"/>
 <img src="https://img.shields.io/badge/сайт-hazban.ru-111111?style=for-the-badge&labelColor=000000&color=1a1a1a" alt="web"/>
+<img src="https://img.shields.io/badge/discord-hex.hakyz-111111?style=for-the-badge&labelColor=000000&color=1a1a1a" alt="discord"/>
 
 <br/><br/>
 
@@ -16,6 +17,31 @@
 ---
 
 ### Проекты
+
+<p align="left">
+
+**[HKZPterodactylInstaller](https://github.com/hakyzmain/HKZPterodactylInstaller)**  
+Кастомный скрипт установки PterodactylPanel (Pterodactyl.io)
+
+**[HKZNGINXAutoUpdater](https://github.com/hakyzmain/HKZNGINXAutoUpdater)**  
+Автоматически обновляет веб сервера NGINX до новой версии и поправляет конфиги
+
+**[PackageAutoUpdater](https://github.com/hakyzmain/PackageAutoUpdater)**  
+Автоматическое ПОЛНОЕ обновление пакетов серверов
+
+**[HkzSCPSLEGG](https://github.com/hakyzmain/HkzSCPSLEGG)**  
+Кастомное яйцо для установки игры SCP:SL на Pterodactyl
+
+**[Hakyzium](https://github.com/hakyzmain/Hakyzium)**  
+Кастомный клиент роблокса
+
+**[HakyCord](https://github.com/hakyzmain/HakyCord)**  
+Кастомный клиент дискорда
+
+**[HakyzAutoSpoofer](https://github.com/hakyzmain/HakyzAutoSpoofer)**  
+Автоматически спуффит анимации роблокса чтобы они работали
+
+</p>
 
 <a href="https://github.com/hakyzmain/HKZPterodactylInstaller">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=hakyzmain&repo=HKZPterodactylInstaller&hide_border=true&bg_color=050505&title_color=f0f0f0&icon_color=c8c8c8&text_color=9a9a9a" alt="HKZPterodactylInstaller"/>
@@ -66,7 +92,16 @@
 
 <br/><br/>
 
-`C#` · `PY` · `JAVA` · `SHELL` · `CSS` · `HTML` · `WEB` · `BOTS` · `PLUGINS` · `& etc`
+`C#, PY, JAVA, SHELL, CSS, HTML, WEB, BOTS, PLUGINS & etc`
+
+<br/>
+
+---
+
+### Контакты
+
+**Discord:** `hex.hakyz`  
+**Почта:** `hakyz@hzbteam.ru`, `mail@hakyz.ru`
 
 <br/>
 
