@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/hakyzmain/hakyzmain@main/assets/banner-black.svg" alt="HZBTEAM" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/hakyzmain/hakyzmain@2613562a635bd81403136c4fcca3002e6f50a247/assets/banner-black.svg" alt="HZBTEAM" width="100%"/>
 
 <br/><br/>
 
