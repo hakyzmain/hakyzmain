@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/black.svg" alt="HZBTEAM" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/hakyzmain/hakyzmain@main/assets/banner-black.svg" alt="HZBTEAM" width="100%"/>
 
 <br/><br/>
 
@@ -68,7 +68,7 @@
 
 ### Статистика
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=hakyzmain&show_icons=true&hide_border=true&bg_color=050505&title_color=f0f0f0&icon_color=c8c8c8&text_color=9a9a9a&ring_color=3a3a3a&locale=ru"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=hakyzmain&show_icons=true&hide_title=true&hide_border=true&bg_color=050505&title_color=f0f0f0&icon_color=c8c8c8&text_color=9a9a9a&ring_color=3a3a3a"/>
 <img height="170" src="https://streak-stats.demolab.com/?user=hakyzmain&hide_border=true&background=050505&stroke=1a1a1a&ring=3a3a3a&fire=d0d0d0&currStreakNum=f0f0f0&sideNums=9a9a9a&currStreakLabel=c8c8c8&sideLabels=8a8a8a&dates=666666&locale=ru" alt="серия"/>
 
 ---
