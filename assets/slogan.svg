@@ -1,64 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
   <defs>
-    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#000000"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="fadeR" x1="1" y1="0" x2="0" y2="0">
-      <stop offset="0%" stop-color="#000000"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </linearGradient>
     <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="480" y2="0">
       <stop offset="0%" stop-color="#000000"/>
-      <stop offset="22%" stop-color="#2b2b2b"/>
+      <stop offset="25%" stop-color="#333333"/>
       <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="78%" stop-color="#2b2b2b"/>
+      <stop offset="75%" stop-color="#333333"/>
       <stop offset="100%" stop-color="#000000"/>
-      <animate attributeName="x1" values="-480;1200" dur="3.8s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0;1680" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="-480;1200" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1680" dur="3.6s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="shine2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="560" y2="0">
       <stop offset="0%" stop-color="#000000"/>
-      <stop offset="40%" stop-color="#a8a8a8"/>
+      <stop offset="40%" stop-color="#b0b0b0"/>
       <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="60%" stop-color="#a8a8a8"/>
+      <stop offset="60%" stop-color="#b0b0b0"/>
       <stop offset="100%" stop-color="#000000"/>
-      <animate attributeName="x1" values="1200;-560" dur="4.8s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1760;0" dur="4.8s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="1200;-560" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1760;0" dur="4.6s" repeatCount="indefinite"/>
     </linearGradient>
   </defs>
-
-  <rect width="1200" height="520" fill="#000000"/>
-
-  <g transform="translate(250,95)">
-    <g fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-      <ellipse cx="70" cy="70" rx="48" ry="42"/>
-      <path d="M28 58 C8 48 -2 28 12 14 c8-8 22-6 32 4"/>
-      <path d="M112 58 C132 48 142 28 128 14 c-8-8 -22-6 -32 4"/>
-      <path d="M70 112 V210"/>
-      <path d="M70 210 H108 V188"/>
-      <path d="M70 158 H95"/>
-    </g>
-    <path fill="#ff2d55" d="M70 78 c-3-10 -14-14 -21-7 -6 6 -5 15 3 21 l18 16 18-16 c8-6 9-15 3-21 -7-7 -18-3 -21 7z"/>
-
-    <g transform="translate(160,48)">
-      <text x="0" y="52" font-family="Arial Black, Segoe UI, Helvetica, Arial, sans-serif" font-size="78" font-weight="800" fill="#ffffff">HZBTEAM</text>
-      <g transform="translate(6,86)">
-        <g transform="translate(0,0)" fill="#cfcfcf">
-          <circle cx="10" cy="10" r="9" fill="none" stroke="#cfcfcf" stroke-width="1.7"/>
-          <ellipse cx="10" cy="10" rx="3.2" ry="9" fill="none" stroke="#cfcfcf" stroke-width="1.2"/>
-          <path d="M1 10 H19" stroke="#cfcfcf" stroke-width="1.2"/>
-        </g>
-        <text x="28" y="15" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#cfcfcf">https://hzbteam.ru/</text>
-      </g>
-    </g>
-  </g>
-
-  <rect x="180" y="320" width="840" height="1" fill="#1a1a1a"/>
-
-  <text x="600" y="390" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" letter-spacing="1.4" fill="url(#shine)">made with &lt;3 for our player</text>
-  <text x="600" y="440" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" letter-spacing="1.2" fill="url(#shine2)">&amp; Trust us with your game.</text>
-
-  <rect x="0" y="0" width="90" height="520" fill="url(#fadeL)"/>
-  <rect x="1110" y="0" width="90" height="520" fill="url(#fadeR)"/>
+  <rect width="1200" height="280" fill="#000000"/>
+  <rect x="220" y="48" width="760" height="1" fill="#1c1c1c"/>
+  <text x="600" y="130" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="32" letter-spacing="1.5" fill="url(#shine)">made with &lt;3 for our player</text>
+  <text x="600" y="185" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" letter-spacing="1.2" fill="url(#shine2)">&amp; Trust us with your game.</text>
+  <rect x="220" y="230" width="760" height="1" fill="#1c1c1c"/>
 </svg>

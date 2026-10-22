@@ -1,8 +1,9 @@
 <div align="center">
 
-<img src="assets/slogan.svg" alt="HZBTEAM" width="100%"/>
+<img src="assets/banner.jpg" alt="HZBTEAM" width="100%"/>
+<img src="assets/slogan.svg" alt="made with love" width="100%"/>
 
-<br/>
+<br/><br/>
 
 <img src="https://img.shields.io/badge/github-hakyzmain-111111?style=for-the-badge&labelColor=000000&color=1a1a1a" alt="github"/>
 <img src="https://img.shields.io/badge/сайт-hzbteam.ru-111111?style=for-the-badge&labelColor=000000&color=1a1a1a" alt="web"/>
