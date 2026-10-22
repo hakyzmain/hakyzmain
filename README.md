@@ -10,7 +10,7 @@
 
 <br/><br/>
 
-**HZBTEAM** · чёрный стек · linux · инструменты
+<img src="assets/slogan.svg" alt="made with love" width="100%"/>
 
 <br/>
 
